@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a73d0bdd6a146942927cd3be642b64c, type: 3}
+  m_Name: Graph1
+  m_EditorClassIdentifier: 
+  graphType: 0
+  graph:
+    rid: 6401616694822305793
+  showGraphInScene: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 6401616694822305793
+      type: {class: SquareGridGraph, ns: SimplePathFinding, asm: SimplePathFinding}
+      data:
+        initialized: 1
+        created: 1
+        startX: -15
+        startZ: -15
+        y: 1.01
+        width: 30
+        height: 30
+        nodeSize: 1
+        layer: 6
